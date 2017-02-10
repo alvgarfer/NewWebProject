@@ -1,13 +1,5 @@
 package proyectopatologias;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.List;
-
-
 public class Consultas
 { 
 	public static final String CONSULTA_PATOLOGIA_ID = "SELECT * FROM Patologias WHERE id_patol = ";

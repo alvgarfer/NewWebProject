@@ -2,7 +2,6 @@ package proyectopatologias;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.Statement;
 
 import com.jcraft.jsch.JSch;
@@ -85,11 +84,4 @@ public class Principal
 			disconnect_D_SSH (); 
 		}   
 	}
-
-
-	
-	
-	
-	
-
 }

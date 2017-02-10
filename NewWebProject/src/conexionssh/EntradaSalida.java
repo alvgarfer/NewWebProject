@@ -2,8 +2,8 @@ package conexionssh;
 
 import java.util.Scanner;
 
-public class EntradaSalida {
-	
+public class EntradaSalida
+{	
 	public static void mostrarMenu()
 	{
 		System.out.println("---------------------------------------------");
@@ -16,11 +16,10 @@ public class EntradaSalida {
 		System.out.println("---------------------------------------------");
 	}
 	
-	
-	
-	public static int recogerOpcion()
+		public static int recogerOpcion()
 	{
 		int opcion = 0;
+			@SuppressWarnings("resource")
 		Scanner sc = new Scanner (System.in);
 		opcion = sc.nextInt();
 		return opcion;
@@ -29,10 +28,10 @@ public class EntradaSalida {
 	public static String recogerPatologia()
 	{
 		String patologia = null;
+			@SuppressWarnings("resource")
 		Scanner sc = new Scanner (System.in);
-		System.out.println("Introduzca nombre de patología:");
+		System.out.println ("Introduzca nombre de patología:");
 		patologia = sc.nextLine();
 		return patologia;
 	}
-
 }
